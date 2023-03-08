@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-08T06:12:32.374Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="M0D9qaNZraaJz8vLZAdH" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-08T09:29:05.593Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="vVLFGfiWKGr-Ppzm9afx" version="21.0.2" type="github">
   <diagram name="Page-1" id="b520641d-4fe3-3701-9064-5fc419738815">
     <mxGraphModel dx="1434" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -108,6 +108,27 @@
             <mxPoint x="690" y="418" as="sourcePoint" />
             <mxPoint x="800" y="411" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="O5bqpqdek-RLclDDUury-8" value="RequestParam" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="52" width="570" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="O5bqpqdek-RLclDDUury-17" value="data" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="O5bqpqdek-RLclDDUury-8">
+          <mxGeometry x="20" y="33" width="100" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="O5bqpqdek-RLclDDUury-18" value="数据信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="O5bqpqdek-RLclDDUury-17">
+          <mxGeometry y="27" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O5bqpqdek-RLclDDUury-19" value="crypt" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="O5bqpqdek-RLclDDUury-8">
+          <mxGeometry x="20" y="150" width="100" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="O5bqpqdek-RLclDDUury-20" value="加密信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="O5bqpqdek-RLclDDUury-19">
+          <mxGeometry y="26" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O5bqpqdek-RLclDDUury-22" value="token" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="O5bqpqdek-RLclDDUury-8">
+          <mxGeometry x="20" y="240" width="100" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="O5bqpqdek-RLclDDUury-23" value="令牌信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="O5bqpqdek-RLclDDUury-22">
+          <mxGeometry y="26" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
